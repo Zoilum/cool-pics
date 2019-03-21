@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+#app {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.d-none {
+    display: none;
+}
+
+.img-wrapper {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper img {
+    max-height: 100%;
+}
+
+.navigation {
+    top: 0;
+    left: 20px;
+    right: 20px;
+    margin: auto;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .arrow-right {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.navigation span {
+    cursor: pointer;
+}
+
+.spinner {
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: #eee;
+}
