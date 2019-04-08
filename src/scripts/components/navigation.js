@@ -7,7 +7,7 @@ export default class Navigation {
     this.currentImage = '';
     this.next = this.container && this.container.querySelector('.arrow-right')
     this.prev = this.container && this.container.querySelector('.arrow-left')
-    this.imgIndex = 0;
+    this.imgIndex = -1;
     this.images = [];
   }
 
